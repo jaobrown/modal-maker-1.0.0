@@ -1,0 +1,84 @@
+.grid-wrapper {
+  min-height: 100%;
+  width: 100%;
+  //background-color: coral;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: .5fr 2fr 2fr 2fr 1fr;
+  grid-gap: 12px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-one {
+  grid-column: 1;
+  grid-row: 2 / 5;
+  background-color: red;
+}
+
+.box-two {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: blue;
+}
+
+.box-three {
+  grid-column: 3;
+  grid-row: 2 / 5;
+  background-color: green;
+}
+
+.box-four {
+  grid-column: 1;
+  grid-row: 3;
+  //background-color: orange;
+}
+
+.box-five {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: purple;
+}
+
+.box-six {
+  grid-column: 3;
+  grid-row: 3;
+  //background-color: cadetblue;
+}
+
+.box-seven {
+  grid-column: 1;
+  grid-row: 4;
+  background-color: red;
+}
+
+.box-eight {
+  grid-column: 2;
+  grid-row: 4;
+  background-color: green;
+}
+.box-nine {
+  grid-column: 3;
+  grid-row: 4;
+  //background-color: blue;
+}
+
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 5;
+  background-color: black;
+  color: white;
+  h4 {
+    margin-bottom: 0px;
+  }
+}

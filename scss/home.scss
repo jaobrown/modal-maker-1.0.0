@@ -1,0 +1,19 @@
+.btnBox {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px black solid;
+  font-size: 18px;
+  transition: .5s;
+  //border-radius: 100px;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}

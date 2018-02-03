@@ -1,0 +1,35 @@
+.navbar {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navLogo {
+  /*background-color: white;*/
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLogo h1 {
+  color: white;
+  font-kerning: 300;
+  margin-bottom: 0px;
+}
+
+.navSpacer {
+  height: 100%;
+  /*background-color: aliceblue;*/
+  width: 30%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
